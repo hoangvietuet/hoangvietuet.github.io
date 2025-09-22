@@ -78,3 +78,25 @@ footer {
   margin-top: 40px;
   font-size: 0.98em;
 }
+
+/* Style cho các link mạng xã hội */
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.05em;
+  margin: 5px 0;
+  transition: opacity 0.2s;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.social-link img {
+  width: 24px;
+  height: 24px;
+}
